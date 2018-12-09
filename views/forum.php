@@ -25,7 +25,7 @@ session_start();
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="cadastro.css">
 
-    <title>Admin</title>
+    <title>Bellatrix</title>
 </head>
 <body>
 
@@ -43,12 +43,16 @@ session_start();
                 <li class="menu"><a href="telalogado.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
                 <li><a href="sobre.php">Sobre</a></li>
-                <li class="menu-has-children"><a href="">Categorias</a>
+               <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
-                        <li><a href="#">Cometas</a></li>
-                        <li><a href="#">Satélites</a></li>
-                        <li><a href="#">Estrelas</a></li>
-                        <li><a href="#">Galáxias</a></li>
+                        <li><a href="cometa.php">Cometas</a></li>
+                        <li><a href="satelite.php">Satélites</a></li>
+                        <li><a href="estrela.php">Estrelas</a></li>
+                        <li><a href="galaxia.php">Galáxias</a></li>
+                        <li><a href="nebulosa.php">Nebulosas</a></li>
+                        <li><a href="historia.php">História</a></li>
+                        <li><a href="planetas.php">Planetas</a></li>
+                        <li><a href="sistema.php">Sistema Solar</a></li>
                     </ul>
                 </li>
                 <li><a href="index.php">Logout</a></li>
@@ -99,7 +103,7 @@ session_start();
                                 <!-- Form actions -->
                                 <div class="form-group">
                                     <div class="col-md-12 text-right">
-                                        <button type="submit" name="gravar" class="btn btn-primary btn-lg">Submit</button>
+                                        <button type="submit" name="gravar" class="btn btn-primary btn-lg">Cadastrar</button>
                                     </div>
                                 </div>
                             </fieldset>

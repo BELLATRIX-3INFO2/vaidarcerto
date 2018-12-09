@@ -94,10 +94,14 @@ $noticia = $noticias->getConteudos();
                 <li><a href="sobre.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
-                        <li><a href="#">Cometas</a></li>
-                        <li><a href="#">Satélites</a></li>
-                        <li><a href="#">Estrelas</a></li>
-                        <li><a href="#">Galáxias</a></li>
+                        <li><a href="cometa.php">Cometas</a></li>
+                        <li><a href="satelite.php">Satélites</a></li>
+                        <li><a href="estrela.php">Estrelas</a></li>
+                        <li><a href="galaxia.php">Galáxias</a></li>
+                        <li><a href="nebulosa.php">Nebulosas</a></li>
+                        <li><a href="historia.php">História</a></li>
+                        <li><a href="planetas.php">Planetas</a></li>
+                        <li><a href="sistema.php">Sistema Solar</a></li>
                     </ul>
                 </li>
                 <li><a href="index.php">Logout</a></li>

@@ -32,7 +32,7 @@ $not = $not->getConteudo($_GET['id']);
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="cadastro.css">
 
-    <title>Admin</title>
+    <title>Bellatrix</title>
 </head>
 <body>
 
@@ -52,10 +52,14 @@ $not = $not->getConteudo($_GET['id']);
                 <li><a href="sobre.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
-                        <li><a href="#">Cometas</a></li>
-                        <li><a href="#">Satélites</a></li>
-                        <li><a href="#">Estrelas</a></li>
-                        <li><a href="#">Galáxias</a></li>
+                        <li><a href="cometa.php">Cometas</a></li>
+                        <li><a href="satelite.php">Satélites</a></li>
+                        <li><a href="estrela.php">Estrelas</a></li>
+                        <li><a href="galaxia.php">Galáxias</a></li>
+                        <li><a href="nebulosa.php">Nebulosas</a></li>
+                        <li><a href="historia.php">História</a></li>
+                        <li><a href="planetas.php">Planetas</a></li>
+                        <li><a href="sistema.php">Sistema Solar</a></li>
                     </ul>
                 </li>
                 <li><a href="index.php">Logout</a></li>
@@ -72,7 +76,7 @@ $not = $not->getConteudo($_GET['id']);
     <div class="row main">
         <div class="panel-heading">
             <div class="panel-title text-center">
-                <h1 class="title">notícias</h1>
+                <h1 class="title">Editar notícias</h1>
                 <hr id="bar" />
             </div>
         </div>
@@ -83,7 +87,7 @@ $not = $not->getConteudo($_GET['id']);
                     <div class="well well-sm">
                         <form class="form-horizontal" action="../controlador/conteudo.php?acao=editar&id=<?= $_GET['id'] ?>" method="post">
                             <fieldset>
-                                <legend class="text-center">Cadastro de notícias</legend>
+                                <legend class="text-center">Editar notícias</legend>
 
                                 <!-- Title input-->
                                 <div class="form-group">
@@ -106,7 +110,7 @@ $not = $not->getConteudo($_GET['id']);
                                 <!-- Form actions -->
                                 <div class="form-group">
                                     <div class="col-md-12 text-right">
-                                        <button type="submit" name="gravar" class="btn btn-primary btn-lg">Submit</button>
+                                        <button type="submit" name="gravar" class="btn btn-primary btn-lg">Editar</button>
                                     </div>
                                 </div>
                             </fieldset>

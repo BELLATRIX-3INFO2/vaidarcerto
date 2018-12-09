@@ -34,13 +34,13 @@
                 $login= $_POST['Login_usu'];
                 $senha= $_POST['Senha_usu'];
                 $email= $_POST['Email'];
-                $novoUsuario = new Usuario($nome,$login, $senha,$email);
+                $novoUsuario = new Usuario($nome,$login, $senha,$email,0);
 
 
                 $crud = new CrudUsuarios();
                 $crud->insertUsuario($novoUsuario);
 
-                header('Location: ../views/login.php');
+                header('Location: ../views/telalogado2.php');
             }
             break;
 

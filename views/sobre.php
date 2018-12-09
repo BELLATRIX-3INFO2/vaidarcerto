@@ -118,7 +118,7 @@
                 <div data-aos="fade-up" class="team-block">
                     <div class="team-img">
                         <a href="#">
-                            <img src="img/projetobella.jpg" alt="" class="img-fluid">
+                            <img src="img/logo.jpg" alt="" class="img-fluid">
                             <div class="social-media">
                                 <a href="#" class="social-icon-box"><i class="fab fa-facebook-f"></i></a>
                                 <br>

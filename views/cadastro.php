@@ -36,20 +36,20 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-            <li class="menu"><a href="telalogado.php">Inicio</a></li>
+            <li class="menu"><a href="index.php">Inicio</a></li>
             <li><a href="listaeventos.php">Eventos</a></li>
-            <li><a href="sobre.php">Sobre</a></li>
+            <li><a href="sobre2.php">Sobre</a></li>
             <li class="menu-has-children"><a href="">Categorias</a>
                 <ul>
-                    <li><a href="cometa.php">Cometas</a></li>
-                    <li><a href="satelite.php">Satélites</a></li>
-                    <li><a href="estrela.php">Estrelas</a></li>
-                    <li><a href="galaxia.php">Galáxias</a></li>
-                    <li><a href="nebulosa.php">Nebulosas</a></li>
-                    <li><a href="historia.php">História</a></li>
-                    <li><a href="planetas.php">Planetas</a></li>
-                    <li><a href="sistema.php">Sistema Solar</a></li>
-                </ul>
+                     <li><a href="login.php">Cometas</a></li>
+                        <li><a href="login.php">Satélites</a></li>
+                        <li><a href="login.php">Estrelas</a></li>
+                        <li><a href="login.php">Galáxias</a></li>
+                        <li><a href="login.php">Nebulosas</a></li>
+                        <li><a href="login.php">História</a></li>
+                        <li><a href="login.php">Planetas</a></li>
+                        <li><a href="login.php">Sistema Solar</a></li>
+                    </ul>
             </li>
 
           <li><a href="login.php">Login</a></li>
@@ -109,7 +109,7 @@
                         </div>
 
                         <div class="form-group ">
-                            <input name="gravar" type="submit" href="../controlador/usuario.php" class="btn btn-primary btn-lg btn-block login-button"></input>
+                            <input name="gravar" value="Cadastrar-se" type="submit" href="../controlador/usuario.php" class="btn btn-primary btn-lg btn-block login-button"></input>
                         </div>
                         <div class="login-register">
                             <a class="cancell" href="index.php">Cancelar </a>

@@ -37,19 +37,19 @@
 
         <nav id="nav-menu-container">
             <ul class="nav-menu">
-                <li class="menu"><a href="telalogado.php">Inicio</a></li>
+                <li class="menu"><a href="index.php">Inicio</a></li>
                 <li><a href="listaeventos.php">Eventos</a></li>
-                <li><a href="sobre.php">Sobre</a></li>
+                <li><a href="sobre2.php">Sobre</a></li>
                 <li class="menu-has-children"><a href="">Categorias</a>
                     <ul>
-                        <li><a href="cometa.php">Cometas</a></li>
-                        <li><a href="satelite.php">Satélites</a></li>
-                        <li><a href="estrela.php">Estrelas</a></li>
-                        <li><a href="galaxia.php">Galáxias</a></li>
-                        <li><a href="nebulosa.php">Nebulosas</a></li>
-                        <li><a href="historia.php">História</a></li>
-                        <li><a href="planetas.php">Planetas</a></li>
-                        <li><a href="sistema.php">Sistema Solar</a></li>
+                        <li><a href="login.php">Cometas</a></li>
+                        <li><a href="login.php">Satélites</a></li>
+                        <li><a href="login.php">Estrelas</a></li>
+                        <li><a href="login.php">Galáxias</a></li>
+                        <li><a href="login.php">Nebulosas</a></li>
+                        <li><a href="login.php">História</a></li>
+                        <li><a href="login.php">Planetas</a></li>
+                        <li><a href="login.php">Sistema Solar</a></li>
                     </ul>
                 </li>
                 <li><a href="cadastro.php">Cadastrar-se</a></li>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="form-group ">
-                    <input id="button" class="btn btn-lg btn-primary btn-block" type="submit" href="index.php" name="entrar">
+                    <input id="button" class="btn btn-lg btn-primary btn-block"  value="Login" type="submit" href="index.php" name="entrar">
                 </div>
                 <div class="login-register">
                     <a class="cancell" href="index.php" style="color:blue">Cancelar </a>

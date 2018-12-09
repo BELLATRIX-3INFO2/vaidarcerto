@@ -109,7 +109,7 @@
     <input type="password" class="form-control" id="exampleInputPassword1" name="Senha_usu" placeholder="Escolha uma senha" value="<?= $user->getSenhaUsu() ?>">
   </div>
   <br>
-  <input type="submit" class="btn btn-outline-success" href="perfil.php">
+  <input type="submit" class="btn btn-outline-success" value="Editar" href="perfil.php">
 </form>
 
         </div>
